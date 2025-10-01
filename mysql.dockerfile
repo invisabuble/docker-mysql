@@ -1,5 +1,5 @@
 # MYSQL
-FROM mariadb:latest
+FROM mysql:9.2
 
 # Copy in the SSL certificates.
 COPY ./docker-apache/web/private/certs/mysql.key /etc/mysql/certs/mysql.key
